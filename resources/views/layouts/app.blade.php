@@ -11,7 +11,7 @@
     <title>@yield('title')</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    //<script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
@@ -22,9 +22,9 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    <link href="{{ asset('backend/css/material-dashboard.css?v=2.1.0') }}" rel="stylesheet" />
+    <link href="{{ asset('backend/css/material-dashboard.css') }}" rel="stylesheet" />
     <!-- DEMO CSS -->
-    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="{{ asset('backend/demo/demo.css') }}" rel="stylesheet" />
     @stack('css')
 
 </head>
@@ -59,7 +59,7 @@
     <!--  Notifications Plugin    -->
     <script src="{{ asset('backend/js/plugins/bootstrap-notify.js') }}"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="{{ asset('backend/js/material-dashboard.min.js?v=2.1.0') }}" type="text/javascript"></script>
+    <script src="{{ asset('backend/js/material-dashboard.min.js') }}" type="text/javascript"></script>
     <script>
         $(document).ready(function() {
         // Javascript method's body can be found in assets/js/demos.js
