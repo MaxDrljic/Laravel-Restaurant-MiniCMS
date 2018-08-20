@@ -60,7 +60,7 @@
     <script src="{{ asset('backend/js/plugins/bootstrap-notify.js') }}"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('backend/js/material-dashboard.min.js') }}" type="text/javascript"></script>
-    <script>
+    <script type="text/javascript">
         $(document).ready(function() {
         // Javascript method's body can be found in assets/js/demos.js
         md.initDashboardPageCharts();
