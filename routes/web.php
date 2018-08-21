@@ -24,4 +24,5 @@ Route::group([
 ], function() {
     Route::get('dashboard', 'DashboardController@index')->name('admin.dashboard');
     Route::resource('slider', 'SliderController');
+    Route::resource('category', 'CategoryController');
 });
