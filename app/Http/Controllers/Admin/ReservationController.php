@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Brian2694\Toastr\Facades\Toastr;
 use App\Reservation;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
