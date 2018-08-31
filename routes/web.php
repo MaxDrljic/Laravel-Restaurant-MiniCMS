@@ -33,4 +33,6 @@ Route::group([
     Route::delete('reservation/{id}', 'ReservationController@destroy')->name('reservation.destroy');
 
     Route::get('contact', 'ContactController@index')->name('contact.index');
+    Route::get('contact/{id}', 'ContactController@show')->name('contact.show');
+    Route::delete('contact/{id}', 'ContactController@destroy')->name('contact.destroy');
 });

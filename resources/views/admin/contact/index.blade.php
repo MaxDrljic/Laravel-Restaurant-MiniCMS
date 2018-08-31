@@ -44,9 +44,9 @@
                         <td>{{ $contact->subject }}</td>
                         <td>{{ $contact->created_at }}</td>
                         <td>
-                          <a href="" class="btn btn-info btn-sm"><i class="material-icons">mode_edit</i></a>
+                          <a href="{{ route('contact.show', $contact->id) }}" class="btn btn-info btn-sm"><i class="material-icons">details</i></a>
 
-                          <form id="delete-form-{{ $contact->id }}" action="{{ route('slider.destroy', $contact->id) }}" style="display: none;" method="post">
+                          <form id="delete-form-{{ $contact->id }}" action="{{ route('contact.destroy', $contact->id) }}" style="display: none;" method="post">
                             @csrf
                             @method('DELETE')
                           </form>
