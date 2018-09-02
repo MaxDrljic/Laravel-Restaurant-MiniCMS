@@ -14,11 +14,11 @@
           @include('layouts.partial.msg')
           <div class="card">
             <div class="card-header card-header-primary">
-              <h4 class="card-title ">Login</h4>
+              <h4 class="card-title">Login</h4>
             </div>
             <div class="card-body">
               <div class="table-responsive">
-                <form method="post" action="{{ route('route('login')') }}">
+                <form method="post" action="{{ route('login') }}">
                   @csrf
                   <div class="row">
                     <div class="col-md-12">
