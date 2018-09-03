@@ -1,3 +1,7 @@
+# Laravel-Restaurant-MiniCMS
+
+Mini CMS for restaurant websites made in Laravel. Includes custom Admin Dashboard and features like changing images in the slider, adding categories & items, reservations and so on. This is a good starting point if you want to implement lightweight CMS for a restaurant website and add custom modifications.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
